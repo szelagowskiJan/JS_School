@@ -13,7 +13,10 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import pl.coderslab.entity.Pupil;
 import pl.coderslab.entity.Reservation;
@@ -47,7 +50,7 @@ public class ReservationController {
 
 			return "/showAll";
 		} else
-			return "/login";
+			return "/admin";
 	}
 
 	@GetMapping("showAll")
@@ -139,4 +142,18 @@ public class ReservationController {
 
 		return "login";
 	}
+	
+	@RequestMapping(value = "/login**", method = RequestMethod.GET)
+	public ModelAndView adminPage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Hello Admin");
+		model.addObject("message", "This is protected page!");
+		model.setViewName("admin");
+
+		return model;
+
+	}
+	
+	
 }
