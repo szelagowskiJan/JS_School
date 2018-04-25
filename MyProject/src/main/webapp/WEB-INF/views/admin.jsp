@@ -1,4 +1,4 @@
-
+<%-- 
 <%@ page session="true"%>
 
 
@@ -46,12 +46,10 @@
 
 	<c:if test="${pageContext.request.userPrincipal.name != null}">
 		<h2>Welcome : ${pageContext.request.userPrincipal.name} | <a href="<c:url value="/j_spring_security_logout" />" > Logout</a></h2>  
-	</c:if> 
-
- 	 
-	<%-- <c:if test="${pageContext.request.remoteUser != null}">
+	</c:if>  	 
+	<c:if test="${pageContext.request.remoteUser != null}">
 		<h2>Welcome : ${pageContext.request.remoteUser}</h2>
-	</c:if>  --%>
+	</c:if> 
  	
 
 
@@ -65,7 +63,7 @@
 				<th>numberPhone</th>
 				<th class=" w3-margin-top w3-center">comment</th>
 
-		<%-- 	</tr>
+		 	</tr>
 			<c:forEach items="${pupils}" var="pupil">
 				<tr class=" w3-margin-top w3-center">
 					<td>${pupil.id}</td>
@@ -76,7 +74,7 @@
 					<td>${pupil.comment}</td>
 
 				</tr>
-			</c:forEach> --%>
+			</c:forEach> 
 		</table>
 	</div>
 
@@ -85,3 +83,4 @@
 </html>
 
 
+ --%>
