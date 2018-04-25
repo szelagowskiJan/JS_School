@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pl.coderslab</groupId>
-	<artifactId>Spring01hibernate</artifactId>
+	<artifactId>school</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -32,11 +32,6 @@
 			<version>4.2.3.RELEASE</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>4.2.3.RELEASE</version>
-		</dependency>
 
 		<!-- Spring Security -->
 
@@ -135,7 +130,7 @@
 	<build>
 		<finalName>school</finalName>
 		<plugins>
-			<plugin>
+			 <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
@@ -143,8 +138,8 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-			</plugin>
-			<plugin>
+			</plugin> 
+			 <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.2.0</version>
@@ -152,12 +147,11 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 					<outputDirectory>\coderslab\apache-tomcat-8.5.23\webapps\</outputDirectory>
 				</configuration>
-			</plugin>
-
-			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-eclipse-plugin</artifactId> 
+			</plugin> 
+			    <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-eclipse-plugin</artifactId> 
 				<version>2.9</version> <configuration> <downloadSources>true</downloadSources> 
 				<downloadJavadocs>false</downloadJavadocs> <wtpversion>2.0</wtpversion> </configuration> 
-				</plugin> -->
+				</plugin>   
 		</plugins>
 	</build>
 
