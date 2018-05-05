@@ -9,7 +9,7 @@
 
 <header class="w3-display-container w3-content w3-wide"
 	style="max-width: 1500px;" id="home">
-	<img class="w3-image" src="/school/w3images/learning.jpg"
+	<img class="w3-image" src="../school/w3images/learning.jpg"
 		alt="Architecture" width="1500" height="800">
 	<div class="w3-display-middle w3-margin-top w3-center">
 		<h1 class="w3-xxlarge w3-text-white">
@@ -57,7 +57,7 @@ th, td {
 	text-align: left;
 }
 
-/ /*dropdown*/
+/*dropdown*/
 .btn {
 	background-color: #2196F3;
 	color: white;
@@ -385,28 +385,28 @@ th, td {
 			<div class="w3-col l3 m6 w3-margin-bottom">
 				<div class="w3-display-container">
 					<div class="w3-display-topleft w3-black w3-padding"></div>
-					<img src="/school/w3images/apple.jpeg" alt="House"
+					<img src="../school/w3images/apple.jpeg" alt="House"
 						style="width: 100%">
 				</div>
 			</div>
 			<div class="w3-col l3 m6 w3-margin-bottom">
 				<div class="w3-display-container">
 					<div class="w3-display-topleft w3-black w3-padding"></div>
-					<img src="/school/w3images/pensils.jpg" alt="House"
+					<img src="../school/w3images/pensils.jpg" alt="House"
 						style="width: 100%">
 				</div>
 			</div>
 			<div class="w3-col l3 m6 w3-margin-bottom">
 				<div class="w3-display-container">
 					<div class="w3-display-topleft w3-black w3-padding"></div>
-					<img src="/school/w3images/teach.jpg" alt="House"
+					<img src="../school/w3images/teach.jpg" alt="House"
 						style="width: 100%">
 				</div>
 			</div>
 			<div class="w3-col l3 m6 w3-margin-bottom">
 				<div class="w3-display-container">
 					<div class="w3-display-topleft w3-black w3-padding"></div>
-					<img src="/school/w3images/book.jpg" alt="House"
+					<img src="../school/w3images/book.jpg" alt="House"
 						style="width: 100%">
 				</div>
 			</div>
@@ -678,7 +678,7 @@ th, td {
 	<div>
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6924.342122868775!2d20.707595937645316!3d52.15024306920391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1sen!2spl!4v1521179690404"
-			width="1600" height="250" frameborder="0" style="border: 0"
+			width="100%" height="250" frameborder="0" style="border: 0"
 			allowfullscreen></iframe>
 	</div>
 
@@ -708,9 +708,7 @@ th, td {
 			marker.setMap(map);
 		}
 	</script>
-	<script
-		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4117.257371053559!2d20.703730429242!3d52.15003856477813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1spl!2spl!4v1521120898803"></script>
-
-
+	<%--<script--%>
+		<%--src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4117.257371053559!2d20.703730429242!3d52.15003856477813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1spl!2spl!4v1521120898803"></script>--%>
 </body>
 </html>

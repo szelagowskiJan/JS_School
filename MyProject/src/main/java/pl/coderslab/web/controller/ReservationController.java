@@ -1,7 +1,6 @@
-package pl.coderslab.controller;
+package pl.coderslab.web.controller;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import javax.mail.MessagingException;
@@ -140,7 +139,7 @@ public class ReservationController {
 	@GetMapping("login")
 	public String showLogin(final Model model) {
 
-		return "login";
+		return "/login";
 	}
 	
 	@RequestMapping(value = "/login**", method = RequestMethod.GET)

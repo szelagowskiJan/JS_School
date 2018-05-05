@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
-import springmvc_example.model.UserInfo;
 
 public class LoginDaoImpl implements LoginDao {
 	
@@ -18,10 +17,10 @@ public class LoginDaoImpl implements LoginDao {
 	}
 	
 	
-	public UserInfo findUserInfo(String UserName) {
-		String query= "select * from user where username = :username";
-		return null;
-	}
+//	public UserInfo findUserInfo(String UserName) {
+//		String query= "select * from user where username = :username";
+//		return null;
+//	}
 	
 	
 	

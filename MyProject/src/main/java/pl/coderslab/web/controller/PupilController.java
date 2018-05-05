@@ -1,4 +1,4 @@
-package pl.coderslab.controller;
+package pl.coderslab.web.controller;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import pl.coderslab.dao.PupilDao;
 import pl.coderslab.dto.PupilDTO;
 import pl.coderslab.entity.Pupil;
 

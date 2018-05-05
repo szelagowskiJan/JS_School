@@ -19,6 +19,7 @@
 <body>
 
 
+
 	<div class="w3-top">
 		<div class="w3-bar w3-white w3-wide w3-padding w3-card">
 			<a href="menu1#home" class="w3-bar-item w3-button"><b>JS</b>
@@ -30,7 +31,10 @@
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h3>
   
     <form action="showAll" target="_blank"  >
-
+		<input class="w3-input w3-section" type="text" placeholder="Login"
+		required name="login">
+		<input class="w3-input w3-section" type="text" placeholder="Password"
+		required name="password">
       <button class="w3-button w3-black w3-section" type="submit">
          Zaloguj
       </button>
