@@ -121,7 +121,7 @@
 		<div>
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6924.342122868775!2d20.707595937645316!3d52.15024306920391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1sen!2spl!4v1521179690404"
-				width="1600" height="250" frameborder="0" style="border: 0"
+				width="100%" height="250" frameborder="0" style="border: 0"
 				allowfullscreen></iframe>
 		</div>
 
