@@ -24,8 +24,8 @@
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 		crossorigin="anonymous"></script>
 
-
-	<style>
+	<link rel="stylesheet" href="menu.css" type="text/css">
+<style>
 .selected {
 	background-color: red;
 }
@@ -427,83 +427,83 @@ th, td {
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center ">14:00</td>
-					<td ID="12" class="w3-margin-top w3-center"></td>
-					<td ID="12" class="w3-margin-top w3-center"></td>
-					<td ID="12" class="w3-margin-top w3-center"></td>
-					<td ID="12" class="w3-margin-top w3-center"></td>
-					<td ID="12" class="w3-margin-top w3-center"></td>
-					<td ID="12" class="w3-margin-top w3-center"></td>
-					<td ID="12" class="w3-margin-top w3-center"></td>
+					<td ID="121" class="w3-margin-top w3-center"></td>
+					<td ID="122" class="w3-margin-top w3-center"></td>
+					<td ID="123" class="w3-margin-top w3-center"></td>
+					<td ID="124" class="w3-margin-top w3-center"></td>
+					<td ID="125" class="w3-margin-top w3-center"></td>
+					<td ID="126" class="w3-margin-top w3-center"></td>
+					<td ID="127" class="w3-margin-top w3-center"></td>
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center">15:00</td>
-					<td ID="13" class="w3-margin-top w3-center"></td>
-					<td ID="13" class="w3-margin-top w3-center"></td>
-					<td ID="13" class="w3-margin-top w3-center"></td>
-					<td ID="13" class="w3-margin-top w3-center"></td>
-					<td ID="13" class="w3-margin-top w3-center"></td>
-					<td ID="13" class="w3-margin-top w3-center"></td>
-					<td ID="13" class="w3-margin-top w3-center"></td>
+					<td ID="131" class="w3-margin-top w3-center"></td>
+					<td ID="132" class="w3-margin-top w3-center"></td>
+					<td ID="133" class="w3-margin-top w3-center"></td>
+					<td ID="134" class="w3-margin-top w3-center"></td>
+					<td ID="135" class="w3-margin-top w3-center"></td>
+					<td ID="136" class="w3-margin-top w3-center"></td>
+					<td ID="137" class="w3-margin-top w3-center"></td>
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center">16:00</td>
-					<td ID="14" class="w3-margin-top w3-center"></td>
-					<td ID="14" class="w3-margin-top w3-center"></td>
-					<td ID="14" class="w3-margin-top w3-center"></td>
-					<td ID="14" class="w3-margin-top w3-center"></td>
-					<td ID="14" class="w3-margin-top w3-center"></td>
-					<td ID="14" class="w3-margin-top w3-center"></td>
-					<td ID="14" class="w3-margin-top w3-center"></td>
+					<td ID="141" class="w3-margin-top w3-center"></td>
+					<td ID="142" class="w3-margin-top w3-center"></td>
+					<td ID="143" class="w3-margin-top w3-center"></td>
+					<td ID="144" class="w3-margin-top w3-center"></td>
+					<td ID="145" class="w3-margin-top w3-center"></td>
+					<td ID="146" class="w3-margin-top w3-center"></td>
+					<td ID="147" class="w3-margin-top w3-center"></td>
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center">17:00</td>
-					<td ID="15" class="w3-margin-top w3-center"></td>
-					<td ID="15" class="w3-margin-top w3-center"></td>
-					<td ID="15" class="w3-margin-top w3-center"></td>
-					<td ID="15" class="w3-margin-top w3-center"></td>
-					<td ID="15" class="w3-margin-top w3-center"></td>
-					<td ID="15" class="w3-margin-top w3-center"></td>
-					<td ID="15" class="w3-margin-top w3-center"></td>
+					<td ID="151" class="w3-margin-top w3-center"></td>
+					<td ID="152" class="w3-margin-top w3-center"></td>
+					<td ID="153" class="w3-margin-top w3-center"></td>
+					<td ID="154" class="w3-margin-top w3-center"></td>
+					<td ID="155" class="w3-margin-top w3-center"></td>
+					<td ID="156" class="w3-margin-top w3-center"></td>
+					<td ID="157" class="w3-margin-top w3-center"></td>
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center">18:00</td>
-					<td ID="16" class="w3-margin-top w3-center"></td>
-					<td ID="16" class="w3-margin-top w3-center"></td>
-					<td ID="16" class="w3-margin-top w3-center"></td>
-					<td ID="16" class="w3-margin-top w3-center"></td>
-					<td ID="16" class="w3-margin-top w3-center"></td>
-					<td ID="16" class="w3-margin-top w3-center"></td>
-					<td ID="16" class="w3-margin-top w3-center"></td>
+					<td ID="161" class="w3-margin-top w3-center"></td>
+					<td ID="162" class="w3-margin-top w3-center"></td>
+					<td ID="163" class="w3-margin-top w3-center"></td>
+					<td ID="164" class="w3-margin-top w3-center"></td>
+					<td ID="165" class="w3-margin-top w3-center"></td>
+					<td ID="166" class="w3-margin-top w3-center"></td>
+					<td ID="167" class="w3-margin-top w3-center"></td>
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center">19:00</td>
-					<td ID="17" class="w3-margin-top w3-center"></td>
-					<td ID="17" class="w3-margin-top w3-center"></td>
-					<td ID="17" class="w3-margin-top w3-center"></td>
-					<td ID="17" class="w3-margin-top w3-center"></td>
-					<td ID="17" class="w3-margin-top w3-center"></td>
-					<td ID="17" class="w3-margin-top w3-center"></td>
-					<td ID="17" class="w3-margin-top w3-center"></td>
+					<td ID="171" class="w3-margin-top w3-center"></td>
+					<td ID="172" class="w3-margin-top w3-center"></td>
+					<td ID="173" class="w3-margin-top w3-center"></td>
+					<td ID="174" class="w3-margin-top w3-center"></td>
+					<td ID="175" class="w3-margin-top w3-center"></td>
+					<td ID="176" class="w3-margin-top w3-center"></td>
+					<td ID="177" class="w3-margin-top w3-center"></td>
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center">20:00</td>
-					<td ID="18" class="w3-margin-top w3-center"></td>
-					<td ID="18" class="w3-margin-top w3-center"></td>
-					<td ID="18" class="w3-margin-top w3-center"></td>
-					<td ID="18" class="w3-margin-top w3-center"></td>
-					<td ID="18" class="w3-margin-top w3-center"></td>
-					<td ID="18" class="w3-margin-top w3-center"></td>
-					<td ID="18" class="w3-margin-top w3-center"></td>
+					<td ID="181" class="w3-margin-top w3-center"></td>
+					<td ID="182" class="w3-margin-top w3-center"></td>
+					<td ID="183" class="w3-margin-top w3-center"></td>
+					<td ID="184" class="w3-margin-top w3-center"></td>
+					<td ID="185" class="w3-margin-top w3-center"></td>
+					<td ID="186" class="w3-margin-top w3-center"></td>
+					<td ID="187" class="w3-margin-top w3-center"></td>
 				</tr>
 				<tr>
 					<td ID="k1" class="w3-margin-top w3-center">21:00</td>
-					<td ID="19" class="w3-margin-top w3-center"></td>
-					<td ID="19" class="w3-margin-top w3-center"></td>
-					<td ID="19" class="w3-margin-top w3-center"></td>
-					<td ID="19" class="w3-margin-top w3-center"></td>
-					<td ID="19" class="w3-margin-top w3-center"></td>
-					<td ID="19" class="w3-margin-top w3-center"></td>
-					<td ID="19" class="w3-margin-top w3-center"></td>
+					<td ID="191" class="w3-margin-top w3-center"></td>
+					<td ID="192" class="w3-margin-top w3-center"></td>
+					<td ID="193" class="w3-margin-top w3-center"></td>
+					<td ID="194" class="w3-margin-top w3-center"></td>
+					<td ID="195" class="w3-margin-top w3-center"></td>
+					<td ID="196" class="w3-margin-top w3-center"></td>
+					<td ID="197" class="w3-margin-top w3-center"></td>
 				</tr>
 			</table>
 
