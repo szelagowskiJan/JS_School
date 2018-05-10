@@ -688,27 +688,5 @@ th, td {
 		</p>
 	</footer>
 
-
-	<script>
-		function myMap() {
-			myCenter = new google.maps.LatLng(52.150215, 20.707383);
-			var mapOptions = {
-				center : myCenter,
-				zoom : 13,
-				scrollwheel : false,
-				draggable : false,
-				mapTypeId : google.maps.MapTypeId.ROADMAP
-			};
-			var map = new google.maps.Map(document.getElementById("googleMap"),
-					mapOptions);
-
-			var marker = new google.maps.Marker({
-				position : myCenter,
-			});
-			marker.setMap(map);
-		}
-	</script>
-	<%--<script--%>
-		<%--src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4117.257371053559!2d20.703730429242!3d52.15003856477813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1spl!2spl!4v1521120898803"></script>--%>
 </body>
 </html>
