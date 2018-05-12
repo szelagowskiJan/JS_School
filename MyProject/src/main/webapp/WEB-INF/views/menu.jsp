@@ -411,7 +411,7 @@ th, td {
 				</div>
 			</div>
 		</div>
-		<div>
+		<%--<div>
 			<form action="/school/menu1" method="post"></form>
 
 			<table style="width: 100%" id="schedule">
@@ -507,7 +507,83 @@ th, td {
 				</tr>
 			</table>
 
+		</div>--%>
+
+		<div class="w3-bar">
+
+			<div class="w3-dropdown-hover  ">
+				<button ID="data1" class=" w3-button w3-black"></button>
+				<ul class="w3-ul w3-card-4">
+					<li id='1.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('1.11').style.display='none'">12-14</li>
+					<li id='1.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('1.12').style.display='none'">14-16</li>
+					<li id='1.13' class=" w3-display-container w3-hover-aqua" onclick="getElementById('1.13').style.display='none'">16-18</li>
+					<li id='1.14' class=" w3-display-container w3-hover-aqua" onclick="getElementById('1.14').style.display='none'">18-20</li>
+					<li id='1.15' class=" w3-display-container w3-hover-aqua" onclick="getElementById('1.15').style.display='none'">20-22</li>
+				</ul>
+			</div>
+			<div class="w3-dropdown-hover ">
+				<button ID="data2" class=" w3-button w3-black"></button>
+				<ul class="w3-ul w3-card-4">
+					<li id='2.11' class=" w3-display-container w3-hover-indigo" onclick="getElementById('2.11').style.display='none'">12-14</li>
+					<li id='2.12' class=" w3-display-container w3-hover-indigo" onclick="getElementById('2.12').style.display='none'">14-16</li>
+					<li id='2.13' class=" w3-display-container w3-hover-indigo" onclick="getElementById('2.13').style.display='none'">16-18</li>
+					<li id='2.14' class=" w3-display-container w3-hover-indigo" onclick="getElementById('2.14').style.display='none'">18-20</li>
+					<li id='2.15' class=" w3-display-container w3-hover-indigo" onclick="getElementById('2.15').style.display='none'">20-22</li>
+				</ul>
+			</div>
+			<div class="w3-dropdown-hover ">
+				<button ID="data3" class="w3-button w3-black"></button>
+				<ul class="w3-ul w3-card-4">
+					<li id='3.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('3.11').style.display='none'">12-14</li>
+					<li id='3.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('3.12').style.display='none'">14-16</li>
+					<li id='3.13' class=" w3-display-container w3-hover-aqua" onclick="getElementById('3.13').style.display='none'">16-18</li>
+					<li id='3.14' class=" w3-display-container w3-hover-aqua" onclick="getElementById('3.14').style.display='none'">18-20</li>
+					<li id='3.15' class=" w3-display-container w3-hover-aqua" onclick="getElementById('3.15').style.display='none'">20-22</li>
+				</ul>
+			</div>
+			<div class="w3-dropdown-hover ">
+				<button ID="data4" class="w3-button w3-black"></button>
+				<ul class="w3-ul w3-card-4">
+					<li id='4.11' class=" w3-display-container w3-hover-indigo" onclick="getElementById('4.11').style.display='none'">12-14</li>
+					<li id='4.12' class=" w3-display-container w3-hover-indigo" onclick="getElementById('4.12').style.display='none'">14-16</li>
+					<li id='4.13' class=" w3-display-container w3-hover-indigo" onclick="getElementById('4.13').style.display='none'">16-18</li>
+					<li id='4.14' class=" w3-display-container w3-hover-indigo" onclick="getElementById('4.14').style.display='none'">18-20</li>
+					<li id='4.15' class=" w3-display-container w3-hover-indigo" onclick="getElementById('4.15').style.display='none'">20-22</li>
+				</ul>
+			</div>
+			<div class="w3-dropdown-hover ">
+				<button ID="data5" class="w3-button w3-black"></button>
+				<ul class="w3-ul w3-card-4">
+					<li id='5.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('5.11').style.display='none'">12-14</li>
+					<li id='5.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('5.12').style.display='none'">14-16</li>
+					<li id='5.13' class=" w3-display-container w3-hover-aqua" onclick="getElementById('5.13').style.display='none'">16-18</li>
+					<li id='5.14' class=" w3-display-container w3-hover-aqua" onclick="getElementById('5.14').style.display='none'">18-20</li>
+					<li id='5.15' class=" w3-display-container w3-hover-aqua" onclick="getElementById('5.15').style.display='none'">20-22</li>
+				</ul>
+			</div>
+			<div class="w3-dropdown-hover ">
+				<button ID="data6" class="w3-button w3-black"></button>
+				<ul class="w3-ul w3-card-4">
+					<li id='6.11' class=" w3-display-container w3-hover-indigo" onclick="getElementById('6.11').style.display='none'">12-14</li>
+					<li id='6.12' class=" w3-display-container w3-hover-indigo" onclick="getElementById('6.12').style.display='none'">14-16</li>
+					<li id='6.13' class=" w3-display-container w3-hover-indigo" onclick="getElementById('6.13').style.display='none'">16-18</li>
+					<li id='6.14' class=" w3-display-container w3-hover-indigo" onclick="getElementById('6.14').style.display='none'">18-20</li>
+					<li id='6.15' class=" w3-display-container w3-hover-indigo" onclick="getElementById('6.15').style.display='none'">20-22</li>
+				</ul>
+			</div>
+			<div class="w3-dropdown-hover ">
+				<button ID="data7" class="w3-button w3-black"></button>
+				<ul class="w3-ul w3-card-4">
+					<li id='7.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('7.11').style.display='none'">12-14</li>
+					<li id='7.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('7.12').style.display='none'">14-16</li>
+					<li id='7.13' class=" w3-display-container w3-hover-aqua" onclick="getElementById('7.13').style.display='none'">16-18</li>
+					<li id='7.14' class=" w3-display-container w3-hover-aqua" onclick="getElementById('7.14').style.display='none'">18-20</li>
+					<li id='7.15' class=" w3-display-container w3-hover-aqua" onclick="getElementById('7.15').style.display='none'">20-22</li>
+				</ul>
+			</div>
+
 		</div>
+
 
 		<div class="w3-container w3-padding-32" id="Level">
 			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Level</h3>
