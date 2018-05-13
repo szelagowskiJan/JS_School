@@ -508,11 +508,11 @@ th, td {
 			</table>
 
 		</div>--%>
-
+        <div class="w3-center">
 		<div class="w3-bar">
 
 			<div class="w3-dropdown-hover  ">
-				<button ID="data1" class=" w3-button w3-black"></button>
+				<button ID="data1" class=" w3-button w3-black w3-padding-large"></button>
 				<ul class="w3-ul w3-card-4">
 					<li id='1.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('1.11').style.display='none'">12-14</li>
 					<li id='1.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('1.12').style.display='none'">14-16</li>
@@ -522,7 +522,7 @@ th, td {
 				</ul>
 			</div>
 			<div class="w3-dropdown-hover ">
-				<button ID="data2" class=" w3-button w3-black"></button>
+				<button ID="data2" class=" w3-button w3-black w3-padding-large"></button>
 				<ul class="w3-ul w3-card-4">
 					<li id='2.11' class=" w3-display-container w3-hover-indigo" onclick="getElementById('2.11').style.display='none'">12-14</li>
 					<li id='2.12' class=" w3-display-container w3-hover-indigo" onclick="getElementById('2.12').style.display='none'">14-16</li>
@@ -532,7 +532,7 @@ th, td {
 				</ul>
 			</div>
 			<div class="w3-dropdown-hover ">
-				<button ID="data3" class="w3-button w3-black"></button>
+				<button ID="data3" class="w3-button w3-black w3-padding-large"></button>
 				<ul class="w3-ul w3-card-4">
 					<li id='3.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('3.11').style.display='none'">12-14</li>
 					<li id='3.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('3.12').style.display='none'">14-16</li>
@@ -542,7 +542,7 @@ th, td {
 				</ul>
 			</div>
 			<div class="w3-dropdown-hover ">
-				<button ID="data4" class="w3-button w3-black"></button>
+				<button ID="data4" class="w3-button w3-black w3-padding-large"></button>
 				<ul class="w3-ul w3-card-4">
 					<li id='4.11' class=" w3-display-container w3-hover-indigo" onclick="getElementById('4.11').style.display='none'">12-14</li>
 					<li id='4.12' class=" w3-display-container w3-hover-indigo" onclick="getElementById('4.12').style.display='none'">14-16</li>
@@ -552,7 +552,7 @@ th, td {
 				</ul>
 			</div>
 			<div class="w3-dropdown-hover ">
-				<button ID="data5" class="w3-button w3-black"></button>
+				<button ID="data5" class="w3-button w3-black w3-padding-large"></button>
 				<ul class="w3-ul w3-card-4">
 					<li id='5.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('5.11').style.display='none'">12-14</li>
 					<li id='5.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('5.12').style.display='none'">14-16</li>
@@ -562,7 +562,7 @@ th, td {
 				</ul>
 			</div>
 			<div class="w3-dropdown-hover ">
-				<button ID="data6" class="w3-button w3-black"></button>
+				<button ID="data6" class="w3-button w3-black w3-padding-large"></button>
 				<ul class="w3-ul w3-card-4">
 					<li id='6.11' class=" w3-display-container w3-hover-indigo" onclick="getElementById('6.11').style.display='none'">12-14</li>
 					<li id='6.12' class=" w3-display-container w3-hover-indigo" onclick="getElementById('6.12').style.display='none'">14-16</li>
@@ -572,7 +572,7 @@ th, td {
 				</ul>
 			</div>
 			<div class="w3-dropdown-hover ">
-				<button ID="data7" class="w3-button w3-black"></button>
+				<button ID="data7" class="w3-button w3-black w3-padding-large"></button>
 				<ul class="w3-ul w3-card-4">
 					<li id='7.11' class=" w3-display-container w3-hover-aqua" onclick="getElementById('7.11').style.display='none'">12-14</li>
 					<li id='7.12' class=" w3-display-container w3-hover-aqua" onclick="getElementById('7.12').style.display='none'">14-16</li>
@@ -583,7 +583,7 @@ th, td {
 			</div>
 
 		</div>
-
+        </div>
 
 		<div class="w3-container w3-padding-32" id="Level">
 			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Level</h3>
