@@ -105,20 +105,21 @@
         }
     </style>
     <script>
-        function confirmation(id) {
-            document.getElementById('id01').style.display = 'block';
-
-            var x = id;
+        function confirmation(id){
+            document.getElementById('prodId').value=id;
+            document.getElementById('id01').style.display='block';
         }
 
-        function confirmationYes(x) {
-            document.getElementById(x).style.display = 'none';
-            document.getElementById('id01').style.display = 'none';
+        function confirmationYes() {
+            var variableTableId = document.getElementById("prodId").value;
+            document.getElementById(variableTableId).style.display='none';
+            document.getElementById('id01').style.display='none';
         }
 
         function confirmationNo() {
-            document.getElementById('id01').style.display = 'none';
+            document.getElementById('id01').style.display='none';
         }
+
     </script>
     <SCRIPT type="text/javascript">
         function viewDayOne() {
@@ -603,6 +604,9 @@
 
         </div>
     </div>
+
+    <input id="prodId" name="prodId" type="hidden" value="0">
+
     <div id="id01" class="w3-modal">
         <div class="w3-modal-content ">
             <div class="w3-container">
