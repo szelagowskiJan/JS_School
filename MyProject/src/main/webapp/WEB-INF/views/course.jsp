@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
-<!-- Header -->
 <head class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
     <h1><b>JS</b> <span class="w3-hide-small w3-text-black">School</span></h1>
  
@@ -19,16 +18,12 @@
 <body>
 
 
-
-
 	<div class="w3-top">
 		<div class="w3-bar w3-white w3-wide w3-padding w3-card">
 			<a href="menu1#home" class="w3-bar-item w3-button"><b>JS</b>
 				School</a>
 		</div>
 	</div>
-
-
 
 	<div class=" w3-margin-top w3-center">
 		<h1 class="w3-xxxlarge w3-text-black">
@@ -51,8 +46,6 @@
 
 
 
-
-
 <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Personal details</h3>
     <p>Provide your personal details.</p>
@@ -71,21 +64,15 @@
   </div>
 
 
-<div ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6924.342122868775!2d20.707595937645316!3d52.15024306920391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1sen!2spl!4v1521179690404" width="1600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<div ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6924.342122868775!2d20.707595937645316!3d52.15024306920391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1sen!2spl!4v1521179690404" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
-<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6924.342122868775!2d20.707595937645316!3d52.15024306920391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1sen!2spl!4v1521179690404" width="2000" height="250" frameborder="0" style="border:0" allowfullscreen> --></iframe>
 <footer class="w3-center w3-black w3-padding-16">
   <p>Author: <a  target="_blank" class="w3-text-green">Jan Szelągowski</a></p>
 </footer>
 
-<!-- w3-display-middle
-w3-display-topmiddle
-w3-display-bottommiddle -->
-
-
 	<script>
 		// Set the date we're counting down to
-		var countDownDate = new Date("April 28, 2018 16:00:00").getTime();
+		var countDownDate = new Date("July 28, 2018 16:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(
@@ -117,7 +104,6 @@ w3-display-bottommiddle -->
 					}
 				}, 1000);
 	</script>
-
 
 
 </body>
