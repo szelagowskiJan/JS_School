@@ -124,237 +124,228 @@
     <SCRIPT type="text/javascript">
         function viewDayOne() {
             var data = new Date();
-            var dzien1 = data.getDay();
-            switch (dzien1) {
+            var day1 = data.getDay();
+            switch (day1) {
                 case 0:
-                    dzien1 = "Sunday";
+                    day1 = "Sunday";
                     break;
                 case 1:
-                    dzien1 = "Monday";
+                    day1 = "Monday";
                     break;
                 case 2:
-                    dzien1 = "Tuesday";
+                    day1 = "Tuesday";
                     break;
                 case 3:
-                    dzien1 = "Wednesday";
+                    day1 = "Wednesday";
                     break;
                 case 4:
-                    dzien1 = "Thursday";
+                    day1 = "Thursday";
                     break;
                 case 5:
-                    dzien1 = "Friday";
+                    day1 = "Friday";
                     break;
                 case 6:
-                    dzien1 = "Saturday";
+                    day1 = "Saturday";
                     break;
             }
 
-            var tekst = dzien1;
-            tekst += "<BR>";
-            document.getElementById("data1").innerHTML = tekst;
+            var text = day1;
+            text += "<BR>";
+            document.getElementById("data1").innerHTML = text;
         }
 
         function viewDayTwo() {
             var data = new Date();
-            var dzien1 = data.getDay();
-            switch (dzien1) {
+            var day1 = data.getDay();
+            switch (day1) {
                 case 6:
-                    dzien1 = "Sunday";
+                    day1 = "Sunday";
                     break;
                 case 0:
-                    dzien1 = "Monday";
+                    day1 = "Monday";
                     break;
                 case 1:
-                    dzien1 = "Tuesday";
+                    day1 = "Tuesday";
                     break;
                 case 2:
-                    dzien1 = "Wednesday";
+                    day1 = "Wednesday";
                     break;
                 case 3:
-                    dzien1 = "Thursday";
+                    day1 = "Thursday";
                     break;
                 case 4:
-                    dzien1 = "Friday";
+                    day1 = "Friday";
                     break;
                 case 5:
-                    dzien1 = "Saturday";
+                    day1 = "Saturday";
                     break;
             }
 
-            var tekst = dzien1;
-            tekst += "<BR>";
-            document.getElementById("data2").innerHTML = tekst;
+            var text = day1;
+            text += "<BR>";
+            document.getElementById("data2").innerHTML = text;
         }
 
         function viewDayThree() {
             var data = new Date();
-            var dzien1 = data.getDay();
-            switch (dzien1) {
+            var day1 = data.getDay();
+            switch (day1) {
                 case 5:
-                    dzien1 = "Sunday";
+                    day1 = "Sunday";
                     break;
                 case 6:
-                    dzien1 = "Monday";
+                    day1 = "Monday";
                     break;
                 case 0:
-                    dzien1 = "Tuesday";
+                    day1 = "Tuesday";
                     break;
                 case 1:
-                    dzien1 = "Wednesday";
+                    day1 = "Wednesday";
                     break;
                 case 2:
-                    dzien1 = "Thursday";
+                    day1 = "Thursday";
                     break;
                 case 3:
-                    dzien1 = "Friday";
+                    day1 = "Friday";
                     break;
                 case 4:
-                    dzien1 = "Saturday";
+                    day1 = "Saturday";
                     break;
             }
 
-            var tekst = dzien1;
-            tekst += "<BR>";
-            document.getElementById("data3").innerHTML = tekst;
+            var text = day1;
+            text += "<BR>";
+            document.getElementById("data3").innerHTML = text;
         }
 
         function viewDayFour() {
             var data = new Date();
-            var dzien1 = data.getDay();
-            switch (dzien1) {
+            var day1 = data.getDay();
+            switch (day1) {
                 case 4:
-                    dzien1 = "Sunday";
+                    day1 = "Sunday";
                     break;
                 case 5:
-                    dzien1 = "Monday";
+                    day1 = "Monday";
                     break;
                 case 6:
-                    dzien1 = "Tuesday";
+                    day1 = "Tuesday";
                     break;
                 case 0:
-                    dzien1 = "Wednesday";
+                    day1 = "Wednesday";
                     break;
                 case 1:
-                    dzien1 = "Thursday";
+                    day1 = "Thursday";
                     break;
                 case 2:
-                    dzien1 = "Friday";
+                    day1 = "Friday";
                     break;
                 case 3:
-                    dzien1 = "Saturday";
+                    day1 = "Saturday";
                     break;
             }
 
-            var tekst = dzien1;
-            tekst += "<BR>";
-            document.getElementById("data4").innerHTML = tekst;
+            var text = day1;
+            text += "<BR>";
+            document.getElementById("data4").innerHTML = text;
         }
 
         function viewDayFive() {
             var data = new Date();
-            var dzien1 = data.getDay();
-            switch (dzien1) {
+            var day1 = data.getDay();
+            switch (day1) {
                 case 3:
-                    dzien1 = "Sunday";
+                    day1 = "Sunday";
                     break;
                 case 4:
-                    dzien1 = "Monday";
+                    day1 = "Monday";
                     break;
                 case 5:
-                    dzien1 = "Tuesday";
+                    day1 = "Tuesday";
                     break;
                 case 6:
-                    dzien1 = "Wednesday";
+                    day1 = "Wednesday";
                     break;
                 case 0:
-                    dzien1 = "Thursday";
+                    day1 = "Thursday";
                     break;
                 case 1:
-                    dzien1 = "Friday";
+                    day1 = "Friday";
                     break;
                 case 2:
-                    dzien1 = "Saturday";
+                    day1 = "Saturday";
                     break;
             }
 
-            var tekst = dzien1;
-            tekst += "<BR>";
-            document.getElementById("data5").innerHTML = tekst;
+            var text = day1;
+            text += "<BR>";
+            document.getElementById("data5").innerHTML = text;
         }
 
         function viewDaySix() {
             var data = new Date();
-            var dzien1 = data.getDay();
-            switch (dzien1) {
+            var day1 = data.getDay();
+            switch (day1) {
                 case 2:
-                    dzien1 = "Sunday";
+                    day1 = "Sunday";
                     break;
                 case 3:
-                    dzien1 = "Monday";
+                    day1 = "Monday";
                     break;
                 case 4:
-                    dzien1 = "Tuesday";
+                    day1 = "Tuesday";
                     break;
                 case 5:
-                    dzien1 = "Wednesday";
+                    day1 = "Wednesday";
                     break;
                 case 6:
-                    dzien1 = "Thursday";
+                    day1 = "Thursday";
                     break;
                 case 0:
-                    dzien1 = "Friday";
+                    day1 = "Friday";
                     break;
                 case 1:
-                    dzien1 = "Saturday";
+                    day1 = "Saturday";
                     break;
             }
 
-            var tekst = dzien1;
-            tekst += "<BR>";
-            document.getElementById("data6").innerHTML = tekst;
+            var text = day1;
+            text += "<BR>";
+            document.getElementById("data6").innerHTML = text;
         }
 
         function viewDaySeven() {
             var data = new Date();
-            var dzien1 = data.getDay();
-            switch (dzien1) {
+            var day1 = data.getDay();
+            switch (day1) {
                 case 1:
-                    dzien1 = "Sunday";
+                    day1 = "Sunday";
                     break;
                 case 2:
-                    dzien1 = "Monday";
+                    day1 = "Monday";
                     break;
                 case 3:
-                    dzien1 = "Tuesday";
+                    day1 = "Tuesday";
                     break;
                 case 4:
-                    dzien1 = "Wednesday";
+                    day1 = "Wednesday";
                     break;
                 case 5:
-                    dzien1 = "Thursday";
+                    day1 = "Thursday";
                     break;
                 case 6:
-                    dzien1 = "Friday";
+                    day1 = "Friday";
                     break;
                 case 0:
-                    dzien1 = "Saturday";
+                    day1 = "Saturday";
                     break;
             }
 
-            var tekst = dzien1;
-            tekst += "<BR>";
-            document.getElementById("data7").innerHTML = tekst;
+            var text = day1;
+            text += "<BR>";
+            document.getElementById("data7").innerHTML = text;
         }
 
-        function toggleSelection() {
-
-            $(this).toggleClass('selected');
-            if ($(this).hasClass('selected')) {
-                $(this).html("zajete");
-            } else {
-                $(this).html("Wolne");
-            }
-        }
 
         function addDropdownContent() {
             var thisText = $(this).text();
