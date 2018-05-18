@@ -375,13 +375,12 @@
         <a href="#home" class="w3-bar-item w3-button"><b>JS</b> School</a>
 
         <div class="w3-right w3-hide-small">
-            <a href="#projects" class="w3-bar-item w3-button">Reservation</a> <a
-                href="#Level" class="w3-bar-item w3-button">Level</a> <a
-                href="#contact" class="w3-bar-item w3-button">Personal details</a>
-            <a href="http://localhost:8080/school/course"
-               class="w3-bar-item w3-button">Course</a> <a
-                href="http://localhost:8080/school/login"
-                class=" w3-bar-item w3-button ">Login</a>
+            <a href="#projects" class="w3-bar-item w3-button">Reservation</a>
+            <a href="#Level" class="w3-bar-item w3-button">Level</a>
+            <a href="#contact" class="w3-bar-item w3-button">Personal details</a>
+            <a href="http://localhost:8080/school/course" class="w3-bar-item w3-button">Course</a>
+            <a href="#map" class="w3-bar-item w3-button">Map</a>
+            <a href="http://localhost:8080/school/login" class=" w3-bar-item w3-button ">Login</a>
         </div>
     </div>
 </div>
@@ -427,7 +426,7 @@
         <div class="w3-bar">
 
             <div class="w3-dropdown-hover  ">
-                <button ID="data1" class=" w3-button w3-black w3-padding-large"></button>
+                <button ID="data1" class=" w3-black w3-padding-large" style="width: 200px"></button>
                 <ul class="w3-ul w3-card-4">
                     <li id='1.11' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">12-14</li>
                     <li id='1.12' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">14-16</li>
@@ -437,7 +436,7 @@
                 </ul>
             </div>
             <div class="w3-dropdown-hover ">
-                <button ID="data2" class=" w3-button w3-black w3-padding-large"></button>
+                <button ID="data2" class=" w3-black w3-padding-large" style="width: 200px"></button>
                 <ul class="w3-ul w3-card-4">
                     <li id='2.11' class=" w3-display-container w3-hover-indigo" onclick="confirmation(this.id)">12-14</li>
                     <li id='2.12' class=" w3-display-container w3-hover-indigo" onclick="confirmation(this.id)">14-16</li>
@@ -447,7 +446,7 @@
                 </ul>
             </div>
             <div class="w3-dropdown-hover ">
-                <button ID="data3" class="w3-button w3-black w3-padding-large"></button>
+                <button ID="data3" class=" w3-black w3-padding-large" style="width: 200px"></button>
                 <ul class="w3-ul w3-card-4">
                     <li id='3.11' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">12-14</li>
                     <li id='3.12' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">14-16</li>
@@ -457,7 +456,7 @@
                 </ul>
             </div>
             <div class="w3-dropdown-hover ">
-                <button ID="data4" class="w3-button w3-black w3-padding-large"></button>
+                <button ID="data4" class=" w3-black w3-padding-large" style="width: 200px"></button>
                 <ul class="w3-ul w3-card-4">
                     <li id='4.11' class=" w3-display-container w3-hover-indigo" onclick="confirmation(this.id)">12-14</li>
                     <li id='4.12' class=" w3-display-container w3-hover-indigo" onclick="confirmation(this.id)">14-16</li>
@@ -467,7 +466,7 @@
                 </ul>
             </div>
             <div class="w3-dropdown-hover ">
-                <button ID="data5" class="w3-button w3-black w3-padding-large"></button>
+                <button ID="data5" class=" w3-black w3-padding-large" style="width: 200px"></button>
                 <ul class="w3-ul w3-card-4">
                     <li id='5.11' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">12-14</li>
                     <li id='5.12' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">14-16</li>
@@ -477,7 +476,7 @@
                 </ul>
             </div>
             <div class="w3-dropdown-hover ">
-                <button ID="data6" class="w3-button w3-black w3-padding-large"></button>
+                <button ID="data6" class=" w3-black w3-padding-large" style="width: 200px"></button>
                 <ul class="w3-ul w3-card-4">
                     <li id='6.11' class=" w3-display-container w3-hover-indigo" onclick="confirmation(this.id)">12-14</li>
                     <li id='6.12' class=" w3-display-container w3-hover-indigo" onclick="confirmation(this.id)">14-16</li>
@@ -487,7 +486,7 @@
                 </ul>
             </div>
             <div class="w3-dropdown-hover ">
-                <button ID="data7" class="w3-button w3-black w3-padding-large"></button>
+                <button ID="data7" class=" w3-black w3-padding-large" style="width: 200px"></button>
                 <ul class="w3-ul w3-card-4">
                     <li id='7.11' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">12-14</li>
                     <li id='7.12' class=" w3-display-container w3-hover-aqua" onclick="confirmation(this.id)">14-16</li>
@@ -524,7 +523,7 @@
         <div class="btn-group">
 
             <div class="dropdown ">
-                <button class="btn" style="border-left: 1px solid navy">
+                <button class="btn" style="border-left: 1px solid navy; width: 300px">
                     Basic level <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content ">
@@ -545,7 +544,7 @@
 
 
             <div class="dropdown">
-                <button class="btn" style="border-left: 1px solid navy">
+                <button class="btn" style="border-left: 1px solid navy; width: 300px">
                     Junior high school <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -571,7 +570,7 @@
 
 
             <div class="dropdown">
-                <button class="btn" style="border-left: 1px solid navy">
+                <button class="btn" style="border-left: 1px solid navy; width: 300px">
                     High school <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -584,8 +583,7 @@
                     <div>Quadratic function</div>
                     <div>Polynomials of one variable</div>
                     <div>Rational functions</div>
-                    <div>Transformations of the plane - analytic interpretation
-                    </div>
+                    <div>Transformations of the plane - analytic interpretation</div>
                     <div>Exponential function</div>
                     <div>Logarithmic function</div>
                     <div>Number sequences</div>
@@ -603,7 +601,7 @@
             </div>
 
             <div class="dropdown">
-                <button class="btn" style="border-left: 1px solid navy">
+                <button class="btn" style="border-left: 1px solid navy; width: 300px">
                     Technical <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -634,7 +632,7 @@
             </div>
 
             <div class="dropdown">
-                <button class="btn" style="border-left: 1px solid navy">
+                <button class="btn" style="border-left: 1px solid navy; width: 300px">
                     Studies <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -685,7 +683,9 @@
     </div>
 </div>
 
-<div>
+
+
+<div class="w3-container w3-padding-32" id="map">
     <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6924.342122868775!2d20.707595937645316!3d52.15024306920391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471949833bccae33%3A0x1fc34ceda37eb7c9!2sKwiatowa+14%2C+05-840+Brwin%C3%B3w!5e0!3m2!1sen!2spl!4v1521179690404"
             width="100%" height="250" frameborder="0" style="border: 0"
