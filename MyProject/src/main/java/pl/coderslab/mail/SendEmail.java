@@ -36,7 +36,7 @@ public class SendEmail {
 			message.setText("Hello " + name + " \n"
 					+ "Thank you for booking on the \"JS School\" website. If you have any questions, please send me a message at: szelagowski.jan1@gmail.com.\n"
 					+ "You have marked learning options: " + level + " \n"
-					+ " In case of urgent contact, please call 509 - 865 - 862.\n" + "Greetings,\n" + "JS School");
+					+ "In case of urgent contact, please call 509 - 865 - 862.\n" + "Greetings,\n" + "JS School");
 
 			message.setSubject("Registration at JS School");
 
