@@ -379,6 +379,7 @@
             <a href="#Level" class="w3-bar-item w3-button">Level</a>
             <a href="#contact" class="w3-bar-item w3-button">Personal details</a>
             <a href="http://localhost:8080/school/course" class="w3-bar-item w3-button">Course</a>
+            <a href="http://localhost:8080/school/opinion" class="w3-bar-item w3-button">Opinion</a>
             <a href="#map" class="w3-bar-item w3-button">Map</a>
             <a href="http://localhost:8080/school/login" class=" w3-bar-item w3-button ">Login</a>
         </div>
