@@ -39,96 +39,114 @@
 				<div class="w3-container w3-green" style="width:5%">5%</div>
 			</div>
 
+			<br><br><br><br><br><br><br><br>
 			How do you assess the atmosphere in class?<br>
 			<input type="radio" name="gender" value="A1"> 1 <br>
 			<input type="radio" name="gender" value="A2"> 2 <br>
 			<input type="radio" name="gender" value="A3"> 3 <br>
-			<input type="radio" name="gender" value="A3"> 4 <br>
-			<input type="radio" name="gender" value="A3"> 5 <br>
+			<input type="radio" name="gender" value="A4"> 4 <br>
+			<input type="radio" name="gender" value="A5"> 5 <br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 		<form class="myOpinion">
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:15%">15%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			How would you rate the preparation for classes?<br>
 			<input type="radio" name="gender" value="B1"> 1 <br>
 			<input type="radio" name="gender" value="B2"> 2 <br>
 			<input type="radio" name="gender" value="B3"> 3 <br>
-			<input type="radio" name="gender" value="B3"> 4 <br>
-			<input type="radio" name="gender" value="B3"> 5 <br>
+			<input type="radio" name="gender" value="B4"> 4 <br>
+			<input type="radio" name="gender" value="B5"> 5 <br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 		<form class="myOpinion">
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:30%">30%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			How do you assess the teacher's approach to the problem?<br>
 			<input type="radio" name="gender" value="C1"> 1 <br>
 			<input type="radio" name="gender" value="C2"> 2 <br>
 			<input type="radio" name="gender" value="C3"> 3 <br>
-			<input type="radio" name="gender" value="C3"> 4 <br>
-			<input type="radio" name="gender" value="C3"> 5 <br>
+			<input type="radio" name="gender" value="C4"> 4 <br>
+			<input type="radio" name="gender" value="C5"> 5 <br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 		<form class="myOpinion">
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:45%">45%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			How likely it is that you recommend these activities to your friends?<br>
 			<input type="radio" name="gender" value="D1"> 1 <br>
 			<input type="radio" name="gender" value="D2"> 2 <br>
 			<input type="radio" name="gender" value="D3"> 3 <br>
-			<input type="radio" name="gender" value="D3"> 4 <br>
-			<input type="radio" name="gender" value="D3"> 5 <br>
+			<input type="radio" name="gender" value="D4"> 4 <br>
+			<input type="radio" name="gender" value="D5"> 5 <br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 		<form class="myOpinion">
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:60%">60%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			How do you rate the price in relation to quality?<br>
 			<input type="radio" name="gender" value="E1"> 1 <br>
 			<input type="radio" name="gender" value="E2"> 2 <br>
 			<input type="radio" name="gender" value="E3"> 3 <br>
-			<input type="radio" name="gender" value="E3"> 4 <br>
-			<input type="radio" name="gender" value="E3"> 5 <br>
+			<input type="radio" name="gender" value="E4"> 4 <br>
+			<input type="radio" name="gender" value="E5"> 5 <br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 		<form class="myOpinion">
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:70%">70%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			How would you rate the ease of using online classes booking?<br>
 			<input type="radio" name="gender" value="F1"> 1 <br>
 			<input type="radio" name="gender" value="F2"> 2 <br>
 			<input type="radio" name="gender" value="F3"> 3 <br>
-			<input type="radio" name="gender" value="F3"> 4 <br>
-			<input type="radio" name="gender" value="F3"> 5 <br>
+			<input type="radio" name="gender" value="F4"> 4 <br>
+			<input type="radio" name="gender" value="F5"> 5 <br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 		<form class="myOpinion">
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:80%">80%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			How many times have you used the classes?<br>
 			<input type="radio" name="gender" value="G1"> 1 <br>
 			<input type="radio" name="gender" value="G2"> 2-5 <br>
 			<input type="radio" name="gender" value="G3"> 5-10 <br>
-			<input type="radio" name="gender" value="G3"> 10-30 <br>
-			<input type="radio" name="gender" value="G3"> regular meetings <br>
+			<input type="radio" name="gender" value="G4"> 10-30 <br>
+			<input type="radio" name="gender" value="G5"> regular meetings
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 		<form class="myOpinion">
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:90%">90%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			How old are you?<br>
 			<input type="radio" name="gender" value="H1"> 10-13 <br>
 			<input type="radio" name="gender" value="H2"> 14-16 <br>
 			<input type="radio" name="gender" value="H3"> 17-20 <br>
-			<input type="radio" name="gender" value="H3"> 20-22 <br>
-			<input type="radio" name="gender" value="H3"> +22 <br>
+			<input type="radio" name="gender" value="H4"> 20-22 <br>
+			<input type="radio" name="gender" value="H5"> +22 <br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 
 		<form class="myOpinion"><br>
 			<div class="w3-light-grey w3-xlarge">
 				<div class="w3-container w3-green" style="width:100%">100%</div>
 			</div>
+			<br><br><br><br><br><br><br><br>
 			Thank you very much for your time and opinions. We're working on it to get better and better.
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</form>
 
 		<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
