@@ -12,10 +12,8 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
+
 
 import pl.coderslab.entity.Pupil;
 import pl.coderslab.entity.Reservation;
@@ -34,7 +32,6 @@ public class ReservationController {
 
 	@GetMapping("menu1")
 	public String showAllLevels(final Model model) {
-		// throw new RuntimeException("BLA BLA !!!");
 		Pupil pupil = new Pupil();
 		List<Reservation> reservations = reservationRepository.findAll();
 		model.addAttribute("pupil", pupil);
@@ -42,31 +39,48 @@ public class ReservationController {
 		return "/menu";
 	}
 
-	@PostMapping("login")
+
+/*	@PostMapping("login")
 	public String Login(final Model model, @RequestParam String login, @RequestParam String password) {
 
-		if (login.equals("aaaaaaaa") && password.equals("aaaaaaaa")) {
+		if (login.equals("user") && password.equals("password")) {
 
-			return "/showAll";
+			return "/payment";
 		} else
-			return "/admin";
-	}
-
-	@GetMapping("showAll")
+			return "/error";
+	}*/
+	@PostMapping("showAll")
 	public String showAllPupils(final Model model) {
 		List<Pupil> pupils = pupilRepository.findAll();
 		model.addAttribute("pupils", pupils);
+		return "/secured/admin";
+	}
+
+	/*@RequestMapping(value = "login", method = RequestMethod.GET)
+	public String showLoginPage(Model model) {
+		model.addAttribute("user", "password");
 		return "/payment";
+	}*/
+
+	@GetMapping("course")
+	public String showCourse(final Model model) {
+
+		return "/course";
+	}
+	@GetMapping("opinion")
+	public String showOpinion(final Model model) {
+
+		return "/opinion";
+	}
+	@GetMapping("login")
+	public String showLogin(final Model model) {
+
+		return "/login";
 	}
 
 	@PostMapping("course")
 	public String processAddReservationForm(final Pupil pupil, final BindingResult bresult) {
-		// List errors = bresult.getFieldErrors();
-		// if (bresult.hasErrors()) {
-		//
-		// return "/menu1";
-		//
-		// }
+
 		System.out.println("Pupil to save: " + pupil);
 		pupilRepository.save(pupil);
 		return "redirect:list";
@@ -131,28 +145,6 @@ public class ReservationController {
 		return "redirect:list";
 	}
 
-	@GetMapping("course")
-	public String showCourse(final Model model) {
-	
-		return "/course";
-	}
-	@GetMapping("login")
-	public String showLogin(final Model model) {
 
-		return "/login";
-	}
-	
-	@RequestMapping(value = "/login**", method = RequestMethod.GET)
-	public ModelAndView adminPage() {
-
-		ModelAndView model = new ModelAndView();
-		model.addObject("title", "Spring Security Hello Admin");
-		model.addObject("message", "This is protected page!");
-		model.setViewName("admin");
-
-		return model;
-
-	}
-	
 	
 }
